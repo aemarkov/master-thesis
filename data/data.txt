@@ -1,0 +1,20 @@
+Rosservice call latency
+Min:    1.210250 ms
+Avg:    3.087539 ms
+Max:    9.479490 ms
+Std:    0.611075 ms
+Jitter: 8.269240 ms
+
+Rosservice persist call latency
+Min:    0.113906 ms
+Avg:    0.348057 ms
+Max:    7.471420 ms
+Std:    0.263132 ms
+Jitter: 7.357514 ms
+
+ROS topic latency
+Min:    0.120806 ms
+Avg:    0.295151 ms
+Max:    1.719698 ms
+Std:    0.085860 ms
+Jitter: 1.598892 ms

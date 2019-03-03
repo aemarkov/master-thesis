@@ -1,0 +1,160 @@
+% TODO: Длинные заголовки при переносе строки продолжаются под цифрами. Т.е. не начало текста не выровнено
+% ----------------------------- БАЗОВЫЕ НАСТРОЙКИ  -----------------------------
+
+\documentclass[oneside, final, 14pt]{extreport}    % Класс документа. Чаще всего использует его
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}                        % Кодировка utf8x для linux
+\usepackage[english,russian]{babel}                % Переносы и прочее для русского и английского
+\usepackage[linktocpage=true]{hyperref}            % Гиперссылки
+\usepackage{indentfirst}                           % Красная строка для первых абзацев
+\usepackage{mathtools}
+\usepackage{tabularx} 
+\usepackage{tabulary}                              % Для создания выравненных "где..." для формул
+\usepackage{graphicx}
+\usepackage{titlesec}                              % Для настройки названий глав, разделов итп
+\usepackage{titletoc}                              % Для настройки оглавления
+\usepackage{enumitem}                              % Для настройки списков
+\usepackage{flafter}                               % Плавающие элементы встречаются после ссылки на них
+\usepackage{caption}                               % Настройка подписей плавающих элементов
+%\usepackage{subcatpion}
+\usepackage{ltablex}                               % Длинные таблицы с разрывом страниц 
+\keepXColumns                                      % Чтобы ltablex не ломал ширину 
+
+\linespread{1.3}                                   % Полуторный интервал
+
+% Настройка полей
+\usepackage{geometry}
+\geometry{left=3cm}
+\geometry{right=1cm}
+\geometry{top=1.5cm}
+\geometry{bottom=2cm}
+
+
+\sloppy                                           % Избегать залезания строк на поля (надо?)
+\setlength\parindent{1.5cm}                       % Отступ красной строки
+
+\newcommand{\nf}{\normalfont}
+
+% ----------------------------- НАСТРОЙКИ ЗАГЛАВИЙ -----------------------------
+%% Отступ 1.5 слева (как у красной строки)t
+% Нет точки между номером и названием
+% Интервал между подзаголовками 1.5
+% Интервал между заголовком и текстом 2*1.5
+% Поддержка приложений
+
+% Глава
+\titleformat{\chapter}
+	[block]                % Shape. block убирает перенос заглвания на новую строку
+    {\normalfont}          % Format. Собственно, стиль
+    {\thechapter}          % Label. Номер главы.
+    {8pt}                  % Sep. Пробел между номером и главой (TODO: уточнить)
+    {}                     % before-code. Код перед названием
+\titlespacing*{\chapter}   
+	{1.5cm}                % Левый отступ (как у красной строки)
+	{18pt}                 % Верхний отступ, 1.5 интервал
+	{18pt}                 % Нижний отступ, 1.5 интервал
+    
+% Раздел
+\titleformat{\section}
+	{\normalfont}
+	{\thesection}
+	{8pt}{}
+\titlespacing*{\section}
+	{\parindent}{18pt}{18pt}
+
+% Подраздел
+\titleformat{\subsection}
+	{\normalfont}
+	{\thesubsection}
+	{8pt}{}
+\titlespacing*{\subsection}
+	{\parindent}{18pt}{18pt}
+	
+% Глава без номера (введение, заключение и т.п.)
+\newcommand{\nnchapter}[1]
+{
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+}
+
+% Приложения
+% Использовать \chapter{} для создания приложений
+% Очень грязный хак, но работает
+\newcommand{\StartAppendix}
+{
+	\setcounter{chapter}{0}
+}
+
+\renewcommand{\appendix}[1]
+{
+	\newpage
+	\stepcounter{chapter}
+	\newcommand{\theappendix}{ПРИЛОЖЕНИЕ \MakeUppercase{\asbuk{chapter}}}
+	\addcontentsline{toc}{chapter}{\texorpdfstring{\theappendix} ~--- #1}
+	\begin{center}
+		\theappendix\\
+		{#1}
+	\end{center}	
+}
+
+% Расстояние между заглавиями и текстом должно быть 2 полуторных интервала,
+% а расстояние между заглавиями - один полуторный интервал.
+% Не придумал ничего лучше, кроме как вставлять вручную
+\newcommand{\aftertitle}{\vskip 18pt}
+
+% ----------------------------- НАСТРОЙКИ СОДЕРЖАНИЯ ---------------------------
+% Нет выделения жирным
+% Все с одним уровнем отступа
+% Поддержка приложений
+
+% Главы
+\titlecontents{chapter}
+	[0em] {}
+	{\thecontentslabel~}{}
+	{\titlerule*[1pc]{.}\contentspage}
+
+% Разделы
+\titlecontents{section}
+	[0em] {}
+	{\thecontentslabel~}{}
+	{\titlerule*[1pc]{.}\contentspage}
+
+% Подразделы
+\titlecontents{subsection}
+	[0em] {}
+	{\thecontentslabel~}{}
+	{\titlerule*[1pc]{.}\contentspage}
+	
+% Заголовок
+\addto\captionsrussian{
+	\renewcommand{\contentsname} {СОДЕРЖАНИЕ}
+}
+
+%-------------------------------- НАСТРОЙКИ СПИСКОВ ----------------------------
+\setlist{
+	label=-,                  % Дефис в каяестве маркера
+	leftmargin=1.5cm,         % Текст в списке выравнен по красной строке
+	itemindent=15pt,          % Маркер выравнен по красной строке, т.е. первая строка чуть сдвинута на размер маркера
+	nosep                     % Убираем интервал между пунктами списков
+}
+
+%--------------------------- НАСТРОЙКИ РИСУНКОВ И ТАБЛИЦ -----------------------
+% Рисунки подписываются "Рисунок N - ..." по центру
+% Таблицы подписываются "Таблица N - ..." с левого края
+
+\captionsetup[figure]{name=Рисунок, labelsep=endash, justification=centering}
+\captionsetup[table]{name=Таблица, labelsep=endash, justification=raggedright, singlelinecheck=false}
+
+% Сквозная нумерация таблиц, рисунков и формул
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+
+
+%\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+%\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period}	
+%----------------- ОБОЗНАЧЕНИЯ В ФОРМУЛАХ (где) --------------------------------
+%\newenvironment{mwhere}
+%	{\begin{tabulary}{\linewidth}{LLLL}}
+%	{\end{tabulary}}
