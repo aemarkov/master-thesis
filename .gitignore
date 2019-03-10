@@ -6,3 +6,8 @@
 *.out
 *.gz
 *.toc
+*.bbl
+*.bcf
+*.fdb*
+*.bak
+*.blg

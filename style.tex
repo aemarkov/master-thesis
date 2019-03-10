@@ -16,9 +16,17 @@
 \usepackage{enumitem}                              % Для настройки списков
 \usepackage{flafter}                               % Плавающие элементы встречаются после ссылки на них
 \usepackage{caption}                               % Настройка подписей плавающих элементов
-%\usepackage{subcatpion}
-\usepackage{ltablex}                               % Длинные таблицы с разрывом страниц 
-\keepXColumns                                      % Чтобы ltablex не ломал ширину 
+%\usepackage{ltablex}                               % Длинные таблицы с разрывом страниц 
+%\keepXColumns                                      % Чтобы ltablex не ломал ширину
+\usepackage{color, soulutf8}                       % Выделенный текст
+\usepackage{csquotes}
+\usepackage[
+    backend=biber, 
+    sorting=nyt,
+    bibstyle=gost-numeric
+] {biblatex}
+\usepackage{algorithm}                             % Псевдокод
+\usepackage{algpseudocode}
 
 \linespread{1.3}                                   % Полуторный интервал
 
@@ -60,7 +68,7 @@
 	{\thesection}
 	{8pt}{}
 \titlespacing*{\section}
-	{\parindent}{18pt}{18pt}
+	{1.5cm}{18pt}{18pt}
 
 % Подраздел
 \titleformat{\subsection}
@@ -131,11 +139,20 @@
 }
 
 %-------------------------------- НАСТРОЙКИ СПИСКОВ ----------------------------
-\setlist{
+% Маркерный список
+\setlist[itemize]{
 	label=-,                  % Дефис в каяестве маркера
 	leftmargin=1.5cm,         % Текст в списке выравнен по красной строке
 	itemindent=15pt,          % Маркер выравнен по красной строке, т.е. первая строка чуть сдвинута на размер маркера
 	nosep                     % Убираем интервал между пунктами списков
+}
+
+% Числовой
+\setlist[enumerate]{
+    label*=\arabic*),
+    leftmargin=1.5cm,
+    itemindent=15pt,
+    nosep
 }
 
 %--------------------------- НАСТРОЙКИ РИСУНКОВ И ТАБЛИЦ -----------------------
@@ -151,10 +168,13 @@
 \renewcommand{\theequation}{\arabic{equation}}
 
 
+%---------------------------------- ФОРМУЛЫ ------------------------------------
 
-%\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
-%\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period}	
-%----------------- ОБОЗНАЧЕНИЯ В ФОРМУЛАХ (где) --------------------------------
-%\newenvironment{mwhere}
-%	{\begin{tabulary}{\linewidth}{LLLL}}
-%	{\end{tabulary}}
+\newcommand{\degsym}{^{\circ}}    % Градус
+\newcommand{\CST}{\mathcal{C}}    % C-State, пространство конфигурации
+\newcommand{\XST}{\mathcal{X}}    % X-State, пространство состояний
+
+
+%-------------------------------- БИБЛИОГРАФИЯ ---------------------------------
+
+\addbibresource{autonomouscar.bib}
