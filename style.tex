@@ -16,6 +16,7 @@
 \usepackage{enumitem}                              % Для настройки списков
 \usepackage{flafter}                               % Плавающие элементы встречаются после ссылки на них
 \usepackage{caption}                               % Настройка подписей плавающих элементов
+\usepackage{setspace}                              % Для настройки интервалов
 %\usepackage{ltablex}                               % Длинные таблицы с разрывом страниц 
 %\keepXColumns                                      % Чтобы ltablex не ломал ширину
 \usepackage{color, soulutf8}                       % Выделенный текст
@@ -42,6 +43,16 @@
 \setlength\parindent{1.5cm}                       % Отступ красной строки
 
 \newcommand{\nf}{\normalfont}
+
+%--------------------------- НАСТРОЙКА ТИТУЛЬНОГО ЛИСТА ------------------------
+\newenvironment{nospasing}
+{
+    \begin{spacing}{1}
+}
+{
+    \end{spacing}        
+}
+
 
 % ----------------------------- НАСТРОЙКИ ЗАГЛАВИЙ -----------------------------
 %% Отступ 1.5 слева (как у красной строки)t
@@ -84,6 +95,18 @@
 	\chapter*{#1}
 	\addcontentsline{toc}{chapter}{#1}
 }
+
+% Фейковая глава для автореферата
+% Зачем платить больше, если не нужно содержание?
+\newcommand{\referchapter}[1]
+{
+    
+    \vspace{18pt}
+    #1
+    \vspace{18pt}
+    
+}
+
 
 % Приложения
 % Использовать \chapter{} для создания приложений
