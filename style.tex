@@ -1,14 +1,16 @@
 % TODO: Длинные заголовки при переносе строки продолжаются под цифрами. Т.е. не начало текста не выровнено
 % ----------------------------- БАЗОВЫЕ НАСТРОЙКИ  -----------------------------
 
-\documentclass[oneside, final, 14pt]{extreport}    % Класс документа. Чаще всего использует его
+\documentclass[oneside, final, 14,  a4paper]{extreport}    % Класс документа. Чаще всего использует его
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}                        % Кодировка utf8x для linux
 \usepackage[english,russian]{babel}                % Переносы и прочее для русского и английского
 \usepackage[linktocpage=true]{hyperref}            % Гиперссылки
 \usepackage{indentfirst}                           % Красная строка для первых абзацев
 \usepackage{mathtools}
-\usepackage{tabularx} 
+\usepackage{tabularx}                              % Много табличной боли и магии
+%\usepackage{ltablex}                              % Длинные таблицы с разрывом страниц 
+%\keepXColumns                                     % Чтобы ltablex не ломал ширину
 \usepackage{tabulary}                              % Для создания выравненных "где..." для формул
 \usepackage{graphicx}
 \usepackage{titlesec}                              % Для настройки названий глав, разделов итп
@@ -17,8 +19,6 @@
 \usepackage{flafter}                               % Плавающие элементы встречаются после ссылки на них
 \usepackage{caption}                               % Настройка подписей плавающих элементов
 \usepackage{setspace}                              % Для настройки интервалов
-%\usepackage{ltablex}                               % Длинные таблицы с разрывом страниц 
-%\keepXColumns                                      % Чтобы ltablex не ломал ширину
 \usepackage{color, soulutf8}                       % Выделенный текст
 \usepackage{csquotes}
 \usepackage[
