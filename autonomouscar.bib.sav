@@ -188,22 +188,7 @@ doi = {10.1243/09544070JAUTO1149}
     ISSN={},
     publisher={MITP},
     isbn={9780262258623},
-    url={https://ieeexplore.ieee.org/document/6284856}
-}
-
-
-@article{darpa_boss_kelly,
-author = {Thomas M. Howard and Alonzo Kelly},
-title ={Optimal Rough Terrain Trajectory Generation for Wheeled Mobile Robots},
-journal = {The International Journal of Robotics Research},
-volume = {26},
-number = {2},
-pages = {141-166},
-year = {2007},
-doi = {10.1177/0278364906075328},
-}
-
-
+    url={https://ieeexplore.ieee.org/document/6284856},}
 
 @article{darpa_junior,
 author = {Montemerlo, Michael and Becker, Jan and Bhat, Suhrid and Dahlkamp, Hendrik and Dolgov, Dmitri and Ettinger, Scott and Haehnel, Dirk and Hilden, Tim and Hoffmann, Gabriel and Huhnke, Burkhard and Johnston, Doug and Klumpp, Stefan and Langer, Dirk and Levandowski, Anthony and Levinson, Jesse and Marcil, Julien and Orenstein, David and Paefgen, Johannes and Penny, Isaac and Thrun, Sebastian},
