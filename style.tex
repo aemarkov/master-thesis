@@ -9,7 +9,7 @@
 \usepackage{indentfirst}                           % Красная строка для первых абзацев
 \usepackage{mathtools}
 \usepackage{tabularx}                              % Много табличной боли и магии
-%\usepackage{ltablex}                              % Длинные таблицы с разрывом страниц 
+%\usepackage{ltablex}                              % Длинные таблицы с разрывом страниц
 %\keepXColumns                                     % Чтобы ltablex не ломал ширину
 \usepackage{tabulary}                              % Для создания выравненных "где..." для формул
 \usepackage{graphicx}
@@ -22,7 +22,7 @@
 \usepackage{color, soulutf8}                       % Выделенный текст
 \usepackage{csquotes}
 \usepackage[
-    backend=biber, 
+    backend=biber,
     sorting=nyt,
     bibstyle=gost-numeric
 ] {biblatex}
@@ -50,7 +50,7 @@
     \begin{spacing}{1}
 }
 {
-    \end{spacing}        
+    \end{spacing}
 }
 
 
@@ -68,11 +68,11 @@
     {\thechapter}          % Label. Номер главы.
     {8pt}                  % Sep. Пробел между номером и главой (TODO: уточнить)
     {}                     % before-code. Код перед названием
-\titlespacing*{\chapter}   
+\titlespacing*{\chapter}
 	{1.5cm}                % Левый отступ (как у красной строки)
 	{18pt}                 % Верхний отступ, 1.5 интервал
 	{18pt}                 % Нижний отступ, 1.5 интервал
-    
+
 % Раздел
 \titleformat{\section}
 	{\normalfont}
@@ -88,7 +88,7 @@
 	{8pt}{}
 \titlespacing*{\subsection}
 	{\parindent}{18pt}{18pt}
-	
+
 % Глава без номера (введение, заключение и т.п.)
 \newcommand{\nnchapter}[1]
 {
@@ -100,11 +100,11 @@
 % Зачем платить больше, если не нужно содержание?
 \newcommand{\referchapter}[1]
 {
-    
+
     \vspace{18pt}
     #1
     \vspace{18pt}
-    
+
 }
 
 
@@ -125,7 +125,7 @@
 	\begin{center}
 		\theappendix\\
 		{#1}
-	\end{center}	
+	\end{center}
 }
 
 % Расстояние между заглавиями и текстом должно быть 2 полуторных интервала,
@@ -155,7 +155,7 @@
 	[0em] {}
 	{\thecontentslabel~}{}
 	{\titlerule*[1pc]{.}\contentspage}
-	
+
 % Заголовок
 \addto\captionsrussian{
 	\renewcommand{\contentsname} {СОДЕРЖАНИЕ}
@@ -189,7 +189,7 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\theequation}{\arabic{equation}}
-
+\pdfimageresolution=150
 
 %---------------------------------- ФОРМУЛЫ ------------------------------------
 

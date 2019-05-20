@@ -88,16 +88,6 @@
   Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84907478492&doi=10.1109%2fTIE.2014.2321342&partnerID=40&md5=0c8d2b4994d7dab581f8c5318fc29c7a}
 }
 
-@Book{darpa_overivew,
-    author = {Buehler, Martin and Iagnemma, Karl and Singh, Sanjiv},
-    year = {2009},
-    month = {01},
-    pages = {},
-    title = {The DARPA Urban Challenge: Autonomous Vehicles in City Traffic, George Air Force Base, Victorville, California, USA},
-    volume = {56},
-    doi = {10.1007/978-3-642-03991-1}
-}
-
 @Article{darpa_annieway,
   Title                    = {Team AnnieWAY's autonomous system for the 2007 DARPA Urban Challenge},
   Author                   = {Kammel, Sören and Ziegler, Julius and Pitzer, Benjamin and Werling, Moritz and Gindele, Tobias and Jagzent, Daniel and Schröder, Joachim and Thuy, Michael and Goebl, Matthias and Hundelshausen, Felix von and Pink, Oliver and Frese, Christian and Stiller, Christoph},
@@ -158,7 +148,18 @@
     isbn={9780262258623}, 
     url={https://ieeexplore.ieee.org/document/6284856},}
 
-@InProceedings{darpa_junior,
+@article{darpa_junior,
+author = {Montemerlo, Michael and Becker, Jan and Bhat, Suhrid and Dahlkamp, Hendrik and Dolgov, Dmitri and Ettinger, Scott and Haehnel, Dirk and Hilden, Tim and Hoffmann, Gabriel and Huhnke, Burkhard and Johnston, Doug and Klumpp, Stefan and Langer, Dirk and Levandowski, Anthony and Levinson, Jesse and Marcil, Julien and Orenstein, David and Paefgen, Johannes and Penny, Isaac and Thrun, Sebastian},
+year = {2008},
+month = {09},
+pages = {569 - 597},
+title = {Junior: The Stanford Entry in the Urban Challenge},
+volume = {25},
+journal = {Journal of Field Robotics},
+doi = {10.1002/rob.20258}
+}
+
+@InProceedings{darpa_junior_path_planning_1,
   Title                    = {Towards fully autonomous driving: Systems and algorithms},
   Author                   = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
   Booktitle                = {2011 IEEE Intelligent Vehicles Symposium (IV)},
@@ -171,7 +172,7 @@
   Keywords                 = {computer vision;mobile robots;remotely operated vehicles;autonomous driving;unpredictable traffic;realtime system;environment perception;robust vehicle platform;software infrastructure;DARPA urban challenge;closed-course competition;robust autonomous operation;LIDAR;online localization;recognition algorithm;obstacle tracking;obstacle classification;planning system;Trajectory;Vehicles;Calibration;Laser beams;Vehicle dynamics;Planning;Software}
 }
 
-@inproceedings{darpa_junior_path_planning,
+@inproceedings{darpa_junior_frenet,
     author = {Werling, Moritz and Ziegler, Julius and Kammel, Sören and Thrun, Sebastian},
     year = {2010},
     month = {06},
@@ -228,6 +229,16 @@
     ISSN={1063-6536}, 
     month={Sep.},}
 
+@Book{darpa_overivew,
+    author = {Buehler, Martin and Iagnemma, Karl and Singh, Sanjiv},
+    year = {2009},
+    month = {01},
+    pages = {},
+    title = {The DARPA Urban Challenge: Autonomous Vehicles in City Traffic, George Air Force Base, Victorville, California, USA},
+    volume = {56},
+    doi = {10.1007/978-3-642-03991-1}
+}
+
 
 @Article{developing_car_1,
   Title                    = {Development of autonomous car-part i: Distributed system architecture and development process},
@@ -280,85 +291,6 @@
   Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-79955561550&doi=10.1109%2fMRA.2011.940276&partnerID=40&md5=90c5975cd89f067a76f98011bf4b5bb6}
 }
 
-@Article{motion_planning_overview_modern,
-  author    = {Казаков К.А., Семенов В.А.},
-  title     = {Обзор современных методов планирования движения},
-  journal   = {Труды Института системного программирования РАН},
-  year      = {2016},
-  timestamp = {2019.03.06},
-}
-
-@Article{motion_planning_overview_obstacles,
-  author  = {Лю В.},
-  title   = {МЕТОДЫ ПЛАНИРОВАНИЯ ПУТИ В СРЕДЕ С ПРЕПЯТСТВИЯМИ (ОБЗОР)},
-  journal = {МАТЕМАТИКА И МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ},
-  year    = {2018},
-  number  = {1},
-  pages   = {15-58},
-  doi     = {10.24108/mathm.0118.0000098},
-  url     = {https://www.mathmelpub.ru/jour/article/view/98#},
-}
-
-@Article{motion_planning_review,
-  Title                    = {A Review of Motion Planning Techniques for Automated Vehicles},
-  Author                   = {Gonzalez Bautista, David and Pérez, Joshué and Milanes, Vicente and Nashashibi, Fawzi},
-  Journal                  = {IEEE Transactions on Intelligent Transportation Systems},
-  Year                     = {2015},
-
-  Month                    = {11},
-  Pages                    = {1-11},
-
-  Doi                      = {10.1109/TITS.2015.2498841}
-}
-
-@Article{motion_planning_rrt_mod_for_car,
-  author    = {Ахметзянов И.З., Ионов М.А., Карабцев В.С.},
-  title     = {Модификация алгоритма RRT для определения оптимальной траектории движения автомобиля при объезде препятствий},
-  journal   = {Вестник Сибирской государственной автомобильно-дорожной академии},
-  year      = {2017},
-  timestamp = {2019.03.06},
-}
-
-@Article{motion_planning_survey,
-  Title                    = {A Survey of Motion Planning and Control Techniques for Self-driving
- Urban Vehicles},
-  Author                   = {Brian Paden and
- Michal C{\'{a}}p and
- Sze Zheng Yong and
- Dmitry S. Yershov and
- Emilio Frazzoli},
-  Journal                  = {CoRR},
-  Year                     = {2016},
-  Volume                   = {abs/1604.07446},
-
-  Archiveprefix            = {arXiv},
-  Bibsource                = {dblp computer science bibliography, https://dblp.org},
-  Biburl                   = {https://dblp.org/rec/bib/journals/corr/PadenCYYF16},
-  Eprint                   = {1604.07446},
-  Timestamp                = {Mon, 13 Aug 2018 16:49:15 +0200},
-  Url                      = {http://arxiv.org/abs/1604.07446}
-}
-
-@inproceedings{motion_planning_rrt,
-    title={Rapidly-Exploring Random Trees: A New Tool for Path Planning},
-    author={Steven M. LaValle},
-    year={1998}
-}
-
-@INPROCEEDINGS{motion_planning_rrt_star, 
-    author={S. M. {LaValle} and J. J. {Kuffner}}, 
-    booktitle={Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)}, 
-    title={Randomized kinodynamic planning}, 
-    year={1999}, 
-    volume={1}, 
-    number={}, 
-    pages={473-479 vol.1}, 
-    keywords={robot dynamics;path planning;state-space methods;random processes;trees (mathematics);randomized path planning;kinodynamic planning;state-space;nonholonomic planning;configuration space;hovercrafts;artificial satellites;obstacle avoidance;random trees;Path planning;State-space methods;Orbital robotics;Vehicle dynamics;Kinematics;Trajectory;Mobile robots;Computer science;Space exploration;Velocity control}, 
-    doi={10.1109/ROBOT.1999.770022}, 
-    ISSN={1050-4729}, 
-    month={May}
-}
-
 @INPROCEEDINGS{motion_planning_kinodynamic_rrt, 
     author={S. M. {LaValle} and J. J. {Kuffner}}, 
     booktitle={Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)}, 
@@ -386,6 +318,25 @@
     Year = {2012}
 }
 
+@Article{motion_planning_overview_modern,
+  author    = {Казаков К.А., Семенов В.А.},
+  title     = {Обзор современных методов планирования движения},
+  journal   = {Труды Института системного программирования РАН},
+  year      = {2016},
+  timestamp = {2019.03.06},
+}
+
+@Article{motion_planning_overview_obstacles,
+  author  = {Лю В.},
+  title   = {МЕТОДЫ ПЛАНИРОВАНИЯ ПУТИ В СРЕДЕ С ПРЕПЯТСТВИЯМИ (ОБЗОР)},
+  journal = {МАТЕМАТИКА И МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ},
+  year    = {2018},
+  number  = {1},
+  pages   = {15-58},
+  doi     = {10.24108/mathm.0118.0000098},
+  url     = {https://www.mathmelpub.ru/jour/article/view/98#},
+}
+
 @INPROCEEDINGS{motion_planning_path_optimization, 
     author={ and and J. M. {Dolan} and and }, 
     booktitle={2012 IEEE International Conference on Robotics and Automation}, 
@@ -397,6 +348,91 @@
     keywords={computational complexity;iterative methods;mobile robots;optimisation;path planning;real-time systems;road vehicles;trajectory control;trajectory optimization;autonomous vehicles;real-time autonomous driving motion planner;cost functions;iterative optimization;resultant trajectory;computational complexity;higher-quality solution;trajectory quality;Trajectory;Optimization;Vehicles;Polynomials;Planning;Acceleration;Roads}, 
     doi={10.1109/ICRA.2012.6225063}, 
     ISSN={1050-4729}, 
+    month={May},}
+
+@Article{motion_planning_review,
+  Title                    = {A Review of Motion Planning Techniques for Automated Vehicles},
+  Author                   = {Gonzalez Bautista, David and Pérez, Joshué and Milanes, Vicente and Nashashibi, Fawzi},
+  Journal                  = {IEEE Transactions on Intelligent Transportation Systems},
+  Year                     = {2015},
+
+  Month                    = {11},
+  Pages                    = {1-11},
+
+  Doi                      = {10.1109/TITS.2015.2498841}
+}
+
+@article{motion_planning_review_2,
+author = {Katrakazas, Christos and Quddus, Mohammed and Chen, Wen-Hua and Deka, Lipika},
+year = {2015},
+month = {11},
+pages = {416-442},
+title = {Real-time motion planning methods for autonomous on-road driving: State-of-the-art and future research directions},
+volume = {60},
+journal = {Transportation Research Part C: Emerging Technologies},
+doi = {10.1016/j.trc.2015.09.011}
+}
+
+@inproceedings{motion_planning_rrt,
+    title={Rapidly-Exploring Random Trees: A New Tool for Path Planning},
+    author={Steven M. LaValle},
+    year={1998}
+}
+
+@Article{motion_planning_rrt_mod_for_car,
+  author    = {Ахметзянов И.З., Ионов М.А., Карабцев В.С.},
+  title     = {Модификация алгоритма RRT для определения оптимальной траектории движения автомобиля при объезде препятствий},
+  journal   = {Вестник Сибирской государственной автомобильно-дорожной академии},
+  year      = {2017},
+  timestamp = {2019.03.06},
+}
+
+@INPROCEEDINGS{motion_planning_rrt_star, 
+    author={S. M. {LaValle} and J. J. {Kuffner}}, 
+    booktitle={Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)}, 
+    title={Randomized kinodynamic planning}, 
+    year={1999}, 
+    volume={1}, 
+    number={}, 
+    pages={473-479 vol.1}, 
+    keywords={robot dynamics;path planning;state-space methods;random processes;trees (mathematics);randomized path planning;kinodynamic planning;state-space;nonholonomic planning;configuration space;hovercrafts;artificial satellites;obstacle avoidance;random trees;Path planning;State-space methods;Orbital robotics;Vehicle dynamics;Kinematics;Trajectory;Mobile robots;Computer science;Space exploration;Velocity control}, 
+    doi={10.1109/ROBOT.1999.770022}, 
+    ISSN={1050-4729}, 
+    month={May}
+}
+
+@Article{motion_planning_survey,
+  Title                    = {A Survey of Motion Planning and Control Techniques for Self-driving
+ Urban Vehicles},
+  Author                   = {Brian Paden and
+ Michal C{\'{a}}p and
+ Sze Zheng Yong and
+ Dmitry S. Yershov and
+ Emilio Frazzoli},
+  Journal                  = {CoRR},
+  Year                     = {2016},
+  Volume                   = {abs/1604.07446},
+
+  Archiveprefix            = {arXiv},
+  Bibsource                = {dblp computer science bibliography, https://dblp.org},
+  Biburl                   = {https://dblp.org/rec/bib/journals/corr/PadenCYYF16},
+  Eprint                   = {1604.07446},
+  Timestamp                = {Mon, 13 Aug 2018 16:49:15 +0200},
+  Url                      = {http://arxiv.org/abs/1604.07446}
+}
+
+
+@INPROCEEDINGS{motion_planning_hybrid_a_star, 
+    author={J. {Petereit} and T. {Emter} and C. W. {Frey} and T. {Kopfstedt} and A. {Beutel}}, 
+    booktitle={ROBOTIK 2012; 7th German Conference on Robotics}, 
+    title={Application of Hybrid A* to an Autonomous Mobile Robot for Path Planning in Unstructured Outdoor Environments}, 
+    year={2012}, 
+    volume={}, 
+    number={}, 
+    pages={1-6}, 
+    keywords={Planning;Vehicles;Path planning;Robot sensing systems;Mobile robots;Service robots}, 
+    doi={}, 
+    ISSN={}, 
     month={May},}
 
 @Article{overview_private_ovnership,
@@ -450,6 +486,49 @@
   Source                   = {Scopus},
   Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84978224598&doi=10.1109%2fRADAR.2016.7485214&partnerID=40&md5=f4ceac54185166a514a6173971a58cd3}
 }
+
+@Book{car_frund,
+  author    = {Горобцов А.С.},
+  title     = {Фрундирование машинки},
+  owner     = {garrus},
+  timestamp = {2019.05.20},
+}
+
+@article{car_dynamics_1,
+author = {Shiller, Zvi and Gwo, Y.-R},
+year = {1991},
+month = {05},
+pages = {241 - 249},
+title = {Dynamic motion planning of autonomous vehicles},
+volume = {7},
+journal = {Robotics and Automation, IEEE Transactions on},
+doi = {10.1109/70.75906}
+}
+
+@article{car_dynamics_bycicle_model_1,
+    title = "Model-predictive active steering and obstacle avoidance for autonomous ground vehicles",
+    journal = "Control Engineering Practice",
+    volume = "17",
+    number = "7",
+    pages = "741 - 750",
+    year = "2009",
+    issn = "0967-0661",
+    doi = "https://doi.org/10.1016/j.conengprac.2008.12.001",
+    url = "http://www.sciencedirect.com/science/article/pii/S0967066108002025",
+    author = "Yongsoon Yoon and Jongho Shin and H. Jin Kim and Yongwoon Park and Shankar Sastry"
+}
+
+@article{car_dynamics_bycicle_model_2,
+author = {Park, J-M and Kim, D-W and Yoon, Yongsoon and J Kim, H and Yi, K-S},
+year = {2009},
+month = {12},
+pages = {1499-1516},
+title = {Obstacle avoidance of autonomous vehicles based on model predictive control},
+volume = {223},
+journal = {Proceedings of The Institution of Mechanical Engineers Part D-journal of Automobile Engineering - PROC INST MECH ENG D-J AUTO},
+doi = {10.1243/09544070JAUTO1149}
+}
+
 
 @Comment{jabref-meta: databaseType:biblatex;}
 
