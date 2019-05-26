@@ -12,4 +12,4 @@
 *.bak
 *.blg
 *.run.xml
-*.synctex.gz
+*.synctex.*

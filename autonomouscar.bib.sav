@@ -188,7 +188,22 @@ doi = {10.1243/09544070JAUTO1149}
     ISSN={},
     publisher={MITP},
     isbn={9780262258623},
-    url={https://ieeexplore.ieee.org/document/6284856},}
+    url={https://ieeexplore.ieee.org/document/6284856}
+}
+
+
+@article{darpa_boss_kelly,
+author = {Thomas M. Howard and Alonzo Kelly},
+title ={Optimal Rough Terrain Trajectory Generation for Wheeled Mobile Robots},
+journal = {The International Journal of Robotics Research},
+volume = {26},
+number = {2},
+pages = {141-166},
+year = {2007},
+doi = {10.1177/0278364906075328},
+}
+
+
 
 @article{darpa_junior,
 author = {Montemerlo, Michael and Becker, Jan and Bhat, Suhrid and Dahlkamp, Hendrik and Dolgov, Dmitri and Ettinger, Scott and Haehnel, Dirk and Hilden, Tim and Hoffmann, Gabriel and Huhnke, Burkhard and Johnston, Doug and Klumpp, Stefan and Langer, Dirk and Levandowski, Anthony and Levinson, Jesse and Marcil, Julien and Orenstein, David and Paefgen, Johannes and Penny, Isaac and Thrun, Sebastian},
@@ -210,6 +225,19 @@ doi = {10.1002/rob.20258}
     journal = {Proceedings - IEEE International Conference on Robotics and Automation},
     doi = {10.1109/ROBOT.2010.5509799}
 }
+
+@INPROCEEDINGS{darpa_junior_frenet_origin,
+author={A. {Takahashi} and T. {Hongo} and Y. {Ninomiya} and G. {Sugimoto}},
+booktitle={Proceedings. IEEE/RSJ International Workshop on Intelligent Robots and Systems '. (IROS '89) 'The Autonomous Mobile Robots and Its Applications},
+title={Local Path Planning And Motion Control For Agv In Positioning},
+year={1989},
+volume={},
+number={},
+pages={392-397},
+keywords={Path planning;Motion control;Cost function;Guidelines;Wire;Cables;Acceleration;Remotely operated vehicles;Mobile robots;Workstations},
+doi={10.1109/IROS.1989.637936},
+ISSN={},
+month={Sep.},}
 
 @InProceedings{darpa_junior_path_planning_1,
   Title                    = {Towards fully autonomous driving: Systems and algorithms},
@@ -554,6 +582,13 @@ Url                      = {http://arxiv.org/abs/1604.07446}
   Journal                  = {2016 IEEE Radar Conference, RadarConf 2016},
   Source                   = {Scopus},
   Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84978224598&doi=10.1109%2fRADAR.2016.7485214&partnerID=40&md5=f4ceac54185166a514a6173971a58cd3}
+}
+
+@Electronic{,
+  title     = {ROS.org | Powering the world's robots},
+  url       = {https://www.ros.org/},
+  owner     = {garrus},
+  timestamp = {2019.05.26},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
