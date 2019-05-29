@@ -1,0 +1,806 @@
+% Encoding: UTF-8
+
+@article{car_dynamics_1,
+author = {Shiller, Zvi and Gwo, Y.-R},
+year = {1991},
+month = {05},
+pages = {241 - 249},
+title = {Dynamic motion planning of autonomous vehicles},
+volume = {7},
+journal = {Robotics and Automation, IEEE Transactions on},
+doi = {10.1109/70.75906}
+}
+
+@article{car_dynamics_bycicle_model_1,
+    title = "Model-predictive active steering and obstacle avoidance for autonomous ground vehicles",
+    journal = "Control Engineering Practice",
+    volume = "17",
+    number = "7",
+    pages = "741 - 750",
+    year = "2009",
+    issn = "0967-0661",
+    doi = "https://doi.org/10.1016/j.conengprac.2008.12.001",
+    url = "http://www.sciencedirect.com/science/article/pii/S0967066108002025",
+    author = "Yongsoon Yoon and Jongho Shin and H. Jin Kim and Yongwoon Park and Shankar Sastry"
+}
+
+@article{car_dynamics_bycicle_model_2,
+author = {Park, J-M and Kim, D-W and Yoon, Yongsoon and J Kim, H and Yi, K-S},
+year = {2009},
+month = {12},
+pages = {1499-1516},
+title = {Obstacle avoidance of autonomous vehicles based on model predictive control},
+volume = {223},
+journal = {Proceedings of The Institution of Mechanical Engineers Part D-journal of Automobile Engineering - PROC INST MECH ENG D-J AUTO},
+doi = {10.1243/09544070JAUTO1149}
+}
+
+@Book{car_frund,
+  author    = {Горобцов А.С.},
+  title     = {Фрундирование машинки},
+  owner     = {garrus},
+  timestamp = {2019.05.20},
+}
+
+@Conference{car_in2bot,
+  Title                    = {Path Planning and Decision Making for Autonomous Vehicle in Urban Environment},
+  Author                   = {Fu, M. and Song, W. and Yi, Y. and Wang, M.},
+  Year                     = {2015},
+  Note                     = {cited By 4},
+  Pages                    = {686-692},
+  Volume                   = {2015-October},
+
+  Art_number               = {7313209},
+  Document_type            = {Conference Paper},
+  Doi                      = {10.1109/ITSC.2015.117},
+  Journal                  = {IEEE Conference on Intelligent Transportation Systems, Proceedings, ITSC},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84950255860&doi=10.1109%2fITSC.2015.117&partnerID=40&md5=3e784f26d6e4b7d7952b93aa52fed478}
+}
+
+
+@Article{car_proud,
+  Title                    = {PROUD-Public Road Urban Driverless-Car Test},
+  Author                   = {Broggi, A. and Cerri, P. and Debattisti, S. and Laghi, M.C. and Medici, P. and Molinari, D. and Panciroli, M. and Prioletti, A.},
+  Journal                  = {IEEE Transactions on Intelligent Transportation Systems},
+  Year                     = {2015},
+  Note                     = {cited By 21},
+  Number                   = {6},
+  Pages                    = {3508-3519},
+  Volume                   = {16},
+
+  Art_number               = {7274741},
+  Document_type            = {Article},
+  Doi                      = {10.1109/TITS.2015.2477556},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84959488888&doi=10.1109%2fTITS.2015.2477556&partnerID=40&md5=55565198a5552f02df98a9cdb0ef1f72}
+}
+
+@Conference{car_race,
+  Title                    = {An Automated Electric Vehicle Prototype Showing New Trends in Automotive Architectures},
+  Author                   = {Buechel, M. and Frtunikj, J. and Becker, K. and Sommer, S. and Buckl, C. and Armbruster, M. and Marek, A. and Zirkler, A. and Klein, C. and Knoll, A.},
+  Year                     = {2015},
+  Note                     = {cited By 20},
+  Pages                    = {1274-1279},
+  Volume                   = {2015-October},
+
+  Art_number               = {7313301},
+  Document_type            = {Conference Paper},
+  Doi                      = {10.1109/ITSC.2015.209},
+  Journal                  = {IEEE Conference on Intelligent Transportation Systems, Proceedings, ITSC},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84950299857&doi=10.1109%2fITSC.2015.209&partnerID=40&md5=05b753f90c370fcc42beca54c13cc704}
+}
+
+@Article{company_1,
+  Title                    = {Security and safety with facial recognition feature for next generation automobiles},
+  Author                   = {Nagendran, N. and Kolhe, A.},
+  Journal                  = {International Journal of Recent Technology and Engineering},
+  Year                     = {2019},
+  Number                   = {4},
+  Pages                    = {289-294},
+  Volume                   = {7},
+
+  Document_type            = {Article},
+  Source                   = {Scopus}
+}
+
+@Electronic{company_yandex,
+  Title                    = {Yandex Self-Driving Car project},
+  Organization             = {Yandex},
+  Url                      = {https://yandex.ru/promo/taxi/sdc},
+
+  Timestamp                = {2019.03.05}
+}
+
+@Article{coop_challenge,
+  Title                    = {Development of autonomous car-part i: Distributed system architecture and development process},
+  Author                   = {Jo, K. and Kim, J. and Kim, D. and Jang, C. and Sunwoo, M.},
+  Journal                  = {IEEE Transactions on Industrial Electronics},
+  Year                     = {2014},
+  Note                     = {cited By 64},
+  Number                   = {12},
+  Pages                    = {7131-7140},
+  Volume                   = {61},
+
+  Art_number               = {6809196},
+  Document_type            = {Article},
+  Doi                      = {10.1109/TIE.2014.2321342},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84907478492&doi=10.1109%2fTIE.2014.2321342&partnerID=40&md5=0c8d2b4994d7dab581f8c5318fc29c7a}
+}
+
+@CONFERENCE{cv_nn_object2d_faster_rcnn,
+author={Ren, S. and He, K. and Girshick, R. and Sun, J.},
+title={Faster R-CNN: Towards real-time object detection with region proposal networks},
+journal={Advances in Neural Information Processing Systems},
+year={2015},
+volume={2015-January},
+pages={91-99},
+note={cited By 3951},
+url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84960980241&partnerID=40&md5=18aaa500235b11fb99e953f8b227f46d},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@article{cv_nn_object2d_review,
+  author    = {Zhong{-}Qiu Zhao and
+               Peng Zheng and
+               Shou{-}tao Xu and
+               Xindong Wu},
+  title     = {Object Detection with Deep Learning: {A} Review},
+  journal   = {CoRR},
+  volume    = {abs/1807.05511},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1807.05511},
+  archivePrefix = {arXiv},
+  eprint    = {1807.05511},
+  timestamp = {Mon, 07 Jan 2019 17:17:43 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1807-05511},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@ARTICLE{cv_nn_object2d_ssd,
+author={Liu, W. and Anguelov, D. and Erhan, D. and Szegedy, C. and Reed, S. and Fu, C.-Y. and Berg, A.C.},
+title={SSD: Single shot multibox detector},
+journal={Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+year={2016},
+volume={9905 LNCS},
+pages={21-37},
+doi={10.1007/978-3-319-46448-0_2},
+note={cited By 1452},
+url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84990068627&doi=10.1007%2f978-3-319-46448-0_2&partnerID=40&md5=67c0fb096188751e98370b1383012199},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@article{cv_nn_object2d_ssd2,
+  author    = {Wei Liu and
+               Dragomir Anguelov and
+               Dumitru Erhan and
+               Christian Szegedy and
+               Scott E. Reed and
+               Cheng{-}Yang Fu and
+               Alexander C. Berg},
+  title     = {{SSD:} Single Shot MultiBox Detector},
+  journal   = {CoRR},
+  volume    = {abs/1512.02325},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1512.02325},
+  archivePrefix = {arXiv},
+  eprint    = {1512.02325},
+  timestamp = {Mon, 13 Aug 2018 16:48:29 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/LiuAESR15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@CONFERENCE{cv_nn_object3d_pointnet,
+author={Qi, C.R. and Su, H. and Mo, K. and Guibas, L.J.},
+title={PointNet: Deep learning on point sets for 3D classification and segmentation},
+journal={Proceedings - 30th IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017},
+year={2017},
+volume={2017-January},
+pages={77-85},
+doi={10.1109/CVPR.2017.16},
+note={cited By 277},
+url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85043534104&doi=10.1109%2fCVPR.2017.16&partnerID=40&md5=e11897ee95a057bbc78aef23d420f926},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@article{cv_nn_object3d_pointnet2,
+  author    = {Charles Ruizhongtai Qi and
+               Hao Su and
+               Kaichun Mo and
+               Leonidas J. Guibas},
+  title     = {PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1612.00593},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1612.00593},
+  archivePrefix = {arXiv},
+  eprint    = {1612.00593},
+  timestamp = {Mon, 13 Aug 2018 16:48:27 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/QiSMG16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@CONFERENCE{cv_nn_object3d_voxelnet,
+author={Zhou, Y. and Tuzel, O.},
+title={VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection},
+journal={Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+year={2018},
+pages={4490-4499},
+doi={10.1109/CVPR.2018.00472},
+art_number={8578570},
+note={cited By 13},
+url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062819000&doi=10.1109%2fCVPR.2018.00472&partnerID=40&md5=92ac902e1dcba93c6830a08c8720ec92},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@article{cv_nn_object3d_voxelnet2,
+  author    = {Yin Zhou and
+               Oncel Tuzel},
+  title     = {VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection},
+  journal   = {CoRR},
+  volume    = {abs/1711.06396},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.06396},
+  archivePrefix = {arXiv},
+  eprint    = {1711.06396},
+  timestamp = {Mon, 13 Aug 2018 16:46:15 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1711-06396},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{cv_nn_segmentation_deeplabv3,
+  author    = {Liang{-}Chieh Chen and
+               Yukun Zhu and
+               George Papandreou and
+               Florian Schroff and
+               Hartwig Adam},
+  title     = {Encoder-Decoder with Atrous Separable Convolution for Semantic Image
+               Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1802.02611},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.02611},
+  archivePrefix = {arXiv},
+  eprint    = {1802.02611},
+  timestamp = {Mon, 13 Aug 2018 16:47:38 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-02611},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@Article{darpa_annieway,
+  Title                    = {Team AnnieWAY's autonomous system for the 2007 DARPA Urban Challenge},
+  Author                   = {Kammel, Sören and Ziegler, Julius and Pitzer, Benjamin and Werling, Moritz and Gindele, Tobias and Jagzent, Daniel and Schröder, Joachim and Thuy, Michael and Goebl, Matthias and Hundelshausen, Felix von and Pink, Oliver and Frese, Christian and Stiller, Christoph},
+  Journal                  = {Journal of Field Robotics},
+  Year                     = {2008},
+  Number                   = {9},
+  Pages                    = {615-639},
+  Volume                   = {25},
+
+  Doi                      = {10.1002/rob.20252},
+  Eprint                   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20252}
+}
+
+@CONFERENCE{darpa_annieway_navigation,
+    author={Ziegler, J. and Werling, M. and Schröder, J.},
+    title={Navigating car-like robots in unstructured environments using an obstacle sensitive cost function},
+    journal={IEEE Intelligent Vehicles Symposium, Proceedings},
+    year={2008},
+    pages={787-791},
+    doi={10.1109/IVS.2008.4621302},
+    art_number={4621302},
+    note={cited By 30},
+    url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-57749196757&doi=10.1109%2fIVS.2008.4621302&partnerID=40&md5=11accfcd3da5016fd0cbe4e4919fd9b7},
+    document_type={Conference Paper},
+    source={Scopus},
+}
+
+@Article{darpa_boss,
+  Title                    = {Autonomous driving in urban environments: Boss and the Urban Challenge},
+  Journal                  = {Journal of Field Robotics Special Issue on the 2007 DARPA Urban Challenge, Part I},
+  Year                     = {2008},
+
+  Month                    = {June},
+  Number                   = {8},
+  Pages                    = {425-466},
+  Volume                   = {25}
+}
+
+@inproceedings{darpa_boss_2,
+    title={Motion Planning in Urban Environments},
+    author={Dave Ferguson and Thomas M. Howard and Maxim Likhachev},
+    booktitle={The DARPA Urban Challenge},
+    year={2009}
+}
+
+@INBOOK{darpa_boss_3,
+    author={O. {Brock} and J. {Trinkle} and F. {Ramos}},
+    booktitle={Robotics: Science and Systems IV},
+    title={Planning Long Dynamically-Feasible Maneuvers for Autonomous Vehicles},
+    year={2009},
+    volume={},
+    number={},
+    pages={},
+    keywords={},
+    doi={},
+    ISSN={},
+    publisher={MITP},
+    isbn={9780262258623},
+    url={https://ieeexplore.ieee.org/document/6284856}
+}
+
+
+@article{darpa_boss_kelly,
+author = {Thomas M. Howard and Alonzo Kelly},
+title ={Optimal Rough Terrain Trajectory Generation for Wheeled Mobile Robots},
+journal = {The International Journal of Robotics Research},
+volume = {26},
+number = {2},
+pages = {141-166},
+year = {2007},
+doi = {10.1177/0278364906075328},
+}
+
+
+
+@article{darpa_junior,
+author = {Montemerlo, Michael and Becker, Jan and Bhat, Suhrid and Dahlkamp, Hendrik and Dolgov, Dmitri and Ettinger, Scott and Haehnel, Dirk and Hilden, Tim and Hoffmann, Gabriel and Huhnke, Burkhard and Johnston, Doug and Klumpp, Stefan and Langer, Dirk and Levandowski, Anthony and Levinson, Jesse and Marcil, Julien and Orenstein, David and Paefgen, Johannes and Penny, Isaac and Thrun, Sebastian},
+year = {2008},
+month = {09},
+pages = {569 - 597},
+title = {Junior: The Stanford Entry in the Urban Challenge},
+volume = {25},
+journal = {Journal of Field Robotics},
+doi = {10.1002/rob.20258}
+}
+
+@inproceedings{darpa_junior_frenet,
+    author = {Werling, Moritz and Ziegler, Julius and Kammel, Sören and Thrun, Sebastian},
+    year = {2010},
+    month = {06},
+    pages = {987 - 993},
+    title = {Optimal Trajectory Generation for Dynamic Street Scenarios in a Frenet Frame},
+    journal = {Proceedings - IEEE International Conference on Robotics and Automation},
+    doi = {10.1109/ROBOT.2010.5509799}
+}
+
+@INPROCEEDINGS{darpa_junior_frenet_origin,
+author={A. {Takahashi} and T. {Hongo} and Y. {Ninomiya} and G. {Sugimoto}},
+booktitle={Proceedings. IEEE/RSJ International Workshop on Intelligent Robots and Systems '. (IROS '89) 'The Autonomous Mobile Robots and Its Applications},
+title={Local Path Planning And Motion Control For Agv In Positioning},
+year={1989},
+volume={},
+number={},
+pages={392-397},
+keywords={Path planning;Motion control;Cost function;Guidelines;Wire;Cables;Acceleration;Remotely operated vehicles;Mobile robots;Workstations},
+doi={10.1109/IROS.1989.637936},
+ISSN={},
+month={Sep.},}
+
+@InProceedings{darpa_junior_path_planning_1,
+  Title                    = {Towards fully autonomous driving: Systems and algorithms},
+  Author                   = {J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
+  Booktitle                = {2011 IEEE Intelligent Vehicles Symposium (IV)},
+  Year                     = {2011},
+  Month                    = {June},
+  Pages                    = {163-168},
+  Doi                      = {10.1109/IVS.2011.5940562},
+  ISSN                     = {1931-0587},
+  Keywords                 = {computer vision;mobile robots;remotely operated vehicles;autonomous driving;unpredictable traffic;realtime system;environment perception;robust vehicle platform;software infrastructure;DARPA urban challenge;closed-course competition;robust autonomous operation;LIDAR;online localization;recognition algorithm;obstacle tracking;obstacle classification;planning system;Trajectory;Vehicles;Calibration;Laser beams;Vehicle dynamics;Planning;Software}
+}
+
+@Article{darpa_mit,
+  Title                    = {A Perception-Driven Autonomous Urban Vehicle},
+  Author                   = {J. Leonard, John and How, Jonathan and J. Teller, Seth and Berger, Mitch and Campbell, Stefan and Fiore, Gaston and Fletcher, Luke and Frazzoli, Emilio and S. Huang, Albert and Karaman, Sertac and Koch, Olivier and Kuwata, Yoshiaki and Moore, David and Olson, Edwin and Peters, Steve and Teo, Justin and Truax, Robert and Walter, Matthew and Barrett, David and Williams, Jonathan},
+  Journal                  = {Journal of Field Robotics},
+  Year                     = {2008},
+  Month                    = {10},
+  Pages                    = {727 - 774},
+  Volume                   = {25},
+  Doi                      = {10.1002/rob.20262}
+}
+
+@INPROCEEDINGS{darpa_mit_2,
+    author={Y. {Kuwata} and G. A. {Fiore} and J. {Teo} and E. {Frazzoli} and J. P. {How}},
+    booktitle={2008 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+    title={Motion planning for urban driving using RRT},
+    year={2008},
+    volume={},
+    number={},
+    pages={1681-1686},
+    keywords={mobile robots;path planning;tree searching;motion planning;urban driving;MIT DARPA Urban Challenge vehicle;rapidly-exploring random trees algorithm;robotic vehicles;Vehicles;Trajectory;Heuristic algorithms;Planning;Roads;Meteorology;Robots},
+    doi={10.1109/IROS.2008.4651075},
+    ISSN={2153-0858},
+    month={Sep.},
+}
+
+@INPROCEEDINGS{darpa_mit_3,
+    author = {Yoshiaki Kuwata and Justin Teo and Sertac Karaman and Gaston Fiore and Emilio Frazzoli and Jonathan P. How},
+    title = {Motion planning in complex environments using closed-loop prediction},
+    booktitle = {Proc. AIAA Guidance, Navigation, and Control Conf. and Exhibit},
+    year = {2008}
+}
+
+@ARTICLE{darpa_mit_4,
+    author={Y. {Kuwata} and J. {Teo} and G. {Fiore} and S. {Karaman} and E. {Frazzoli} and J. P. {How}},
+    journal={IEEE Transactions on Control Systems Technology},
+    title={Real-Time Motion Planning With Applications to Autonomous Urban Driving},
+    year={2009},
+    volume={17},
+    number={5},
+    pages={1105-1118},
+    keywords={closed loop systems;mobile robots;path planning;random processes;real-time systems;road safety;road vehicles;trees (mathematics);uncertain systems;real-time motion planning algorithm;autonomous urban driving;random tree approach;autonomous vehicle;safety requirement;uncertain operating environment;closed-loop prediction;control software;MIT entry;Urban planning;Remotely operated vehicles;Space technology;Mobile robots;Vehicle safety;Vehicle driving;Space vehicles;Motion planning;Human robot interaction;Road vehicles;Autonomous;DARPA urban challenge;dynamic and uncertain environment;real-time motion planning;rapidly-exploring random tree (RRT);urban driving},
+    doi={10.1109/TCST.2008.2012116},
+    ISSN={1063-6536},
+    month={Sep.},}
+
+@Book{darpa_overivew,
+    author = {Buehler, Martin and Iagnemma, Karl and Singh, Sanjiv},
+    year = {2009},
+    month = {01},
+    pages = {},
+    title = {The DARPA Urban Challenge: Autonomous Vehicles in City Traffic, George Air Force Base, Victorville, California, USA},
+    volume = {56},
+    doi = {10.1007/978-3-642-03991-1}
+}
+
+
+@Article{developing_car_1,
+  Title                    = {Development of autonomous car-part i: Distributed system architecture and development process},
+  Author                   = {Jo, K. and Kim, J. and Kim, D. and Jang, C. and Sunwoo, M.},
+  Journal                  = {IEEE Transactions on Industrial Electronics},
+  Year                     = {2014},
+  Note                     = {cited By 64},
+  Number                   = {12},
+  Pages                    = {7131-7140},
+  Volume                   = {61},
+
+  Art_number               = {6809196},
+  Document_type            = {Article},
+  Doi                      = {10.1109/TIE.2014.2321342},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84907478492&doi=10.1109%2fTIE.2014.2321342&partnerID=40&md5=0c8d2b4994d7dab581f8c5318fc29c7a}
+}
+
+@Article{developing_car_2,
+  Title                    = {Development of Autonomous Car - Part II: A Case Study on the Implementation of an Autonomous Driving System Based on Distributed Architecture},
+  Author                   = {Jo, K. and Kim, J. and Kim, D. and Jang, C. and Sunwoo, M.},
+  Journal                  = {IEEE Transactions on Industrial Electronics},
+  Year                     = {2015},
+  Note                     = {cited By 51},
+  Number                   = {8},
+  Pages                    = {5119-5132},
+  Volume                   = {62},
+
+  Art_number               = {7056521},
+  Document_type            = {Article},
+  Doi                      = {10.1109/TIE.2015.2410258},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84934779602&doi=10.1109%2fTIE.2015.2410258&partnerID=40&md5=d5e0ecd57eb5fd8878e9e661099bc231}
+}
+
+@Electronic{jetson_car_6wd,
+  title     = {Pololu - Dagu Wild Thumper 6WD All-Terrain Chassis, Silver, 75:1},
+  url       = {https://www.pololu.com/product/1561},
+  owner     = {Pololu},
+  timestamp = {2019.05.26},
+}
+
+@Electronic{jetson_car_driver,
+  title     = {Dual VNH3SP30 Motor Driver Carrier MD03A},
+  url       = {https://www.pololu.com/product/707},
+  owner     = {Pololu},
+  timestamp = {2019.05.26},
+}
+
+@Electronic{jetson_car_zed,
+  title     = {ZED Stereo Camera - Stereolabs},
+  url       = {https://www.stereolabs.com/zed/},
+  owner     = {garrus},
+  timestamp = {2019.05.26},
+}
+
+@Article{motion_planning_essentials,
+  Title                    = {Motion planning: Part I: The essentials},
+  Author                   = {Lavalle, S.M.},
+  Journal                  = {IEEE Robotics and Automation Magazine},
+  Year                     = {2011},
+  Note                     = {cited By 55},
+  Number                   = {1},
+  Pages                    = {79-89},
+  Volume                   = {18},
+
+  Art_number               = {5751929},
+  Document_type            = {Article},
+  Doi                      = {10.1109/MRA.2011.940276},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-79955561550&doi=10.1109%2fMRA.2011.940276&partnerID=40&md5=90c5975cd89f067a76f98011bf4b5bb6}
+}
+
+
+
+@INPROCEEDINGS{motion_planning_hybrid_a_star,
+    author={J. {Petereit} and T. {Emter} and C. W. {Frey} and T. {Kopfstedt} and A. {Beutel}},
+    booktitle={ROBOTIK 2012; 7th German Conference on Robotics},
+    title={Application of Hybrid A* to an Autonomous Mobile Robot for Path Planning in Unstructured Outdoor Environments},
+    year={2012},
+    volume={},
+    number={},
+    pages={1-6},
+    keywords={Planning;Vehicles;Path planning;Robot sensing systems;Mobile robots;Service robots},
+    doi={},
+    ISSN={},
+    month={May},}
+
+@Electronic{motion_planning_interpolate_bezier,
+  author    = {M. Gloderer, A. Hertle},
+  title     = {SplinesParametersTrajectoryExp erimentalResultsSpline-basedTrajectoryOptimizationforAutonomousVehicleswithAckermandrive},
+  year      = {2010},
+  url       = {https://www.semanticscholar.org/paper/Spline-based-Trajectory-Optimization-for-Autonomous-Gloderer-Hertle/09489079e1fb794258ae3da691c2b368e43e3943},
+  owner     = {University of Freiburg},
+  timestamp = {2019.05.21},
+}
+
+@INPROCEEDINGS{motion_planning_interpolate_path_optimization,
+author={ {Wenda Xu} and {Junqing Wei} and J. M. {Dolan} and {Huijing Zhao} and {Hongbin Zha}},
+booktitle={2012 IEEE International Conference on Robotics and Automation},
+title={A real-time motion planner with trajectory optimization for autonomous vehicles},
+year={2012},
+volume={},
+number={},
+pages={2061-2067},
+keywords={computational complexity;iterative methods;mobile robots;optimisation;path planning;real-time systems;road vehicles;trajectory control;trajectory optimization;autonomous vehicles;real-time autonomous driving motion planner;cost functions;iterative optimization;resultant trajectory;computational complexity;higher-quality solution;trajectory quality;Trajectory;Optimization;Vehicles;Polynomials;Planning;Acceleration;Roads},
+doi={10.1109/ICRA.2012.6225063},
+ISSN={1050-4729},
+month={May},}
+
+@INPROCEEDINGS{motion_planning_kinodynamic_rrt,
+    author={S. M. {LaValle} and J. J. {Kuffner}},
+    booktitle={Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)},
+    title={Randomized kinodynamic planning},
+    year={1999},
+    volume={1},
+    number={},
+    pages={473-479 vol.1},
+    keywords={robot dynamics;path planning;state-space methods;random processes;trees (mathematics);randomized path planning;kinodynamic planning;state-space;nonholonomic planning;configuration space;hovercrafts;artificial satellites;obstacle avoidance;random trees;Path planning;State-space methods;Orbital robotics;Vehicle dynamics;Kinematics;Trajectory;Mobile robots;Computer science;Space exploration;Velocity control},
+    doi={10.1109/ROBOT.1999.770022},
+    ISSN={1050-4729},
+    month={May}
+}
+
+@conference{motion_planning_lattice_1,
+author = {Mikhail Pivtoraiko and Alonzo Kelly},
+title = {Efficient constrained path planning via search in state lattices},
+booktitle = {The 8th International Symposium on Artificial Intelligence, Robotics and Automation in Space},
+year = {2005},
+month = {September},
+keywords = {constrained path planning, planetary rover, rough terrain},
+}
+
+@inproceedings{motion_planning_lattice_2,
+author = {González-Sieira, Adrián and Mucientes, Manuel and Bugarín, Alberto},
+year = {2013},
+month = {11},
+pages = {},
+title = {A State Lattice Approach for Motion Planning under Control and Sensor Uncertainty},
+volume = {253},
+journal = {First Iberian Robotics Conference (ROBOT)},
+doi = {10.1007/978-3-319-03653-3_19}
+}
+
+@article{motion_planning_ompl,
+    Author = {Ioan A. {\c{S}}ucan and Mark Moll and Lydia E. Kavraki},
+    Doi = {10.1109/MRA.2012.2205651},
+    Journal = {{IEEE} Robotics \& Automation Magazine},
+    Month = {December},
+    Number = {4},
+    Pages = {72--82},
+    Title = {The {O}pen {M}otion {P}lanning {L}ibrary},
+    Note = {\url{http://ompl.kavrakilab.org}},
+    Volume = {19},
+    Year = {2012}
+}
+
+@Article{motion_planning_overview_modern,
+  author    = {Казаков К.А., Семенов В.А.},
+  title     = {Обзор современных методов планирования движения},
+  journal   = {Труды Института системного программирования РАН},
+  year      = {2016},
+  timestamp = {2019.03.06},
+}
+
+@Article{motion_planning_overview_obstacles,
+  author  = {Лю В.},
+  title   = {МЕТОДЫ ПЛАНИРОВАНИЯ ПУТИ В СРЕДЕ С ПРЕПЯТСТВИЯМИ (ОБЗОР)},
+  journal = {МАТЕМАТИКА И МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ},
+  year    = {2018},
+  number  = {1},
+  pages   = {15-58},
+  doi     = {10.24108/mathm.0118.0000098},
+  url     = {https://www.mathmelpub.ru/jour/article/view/98#},
+}
+
+@Article{motion_planning_review,
+  Title                    = {A Review of Motion Planning Techniques for Automated Vehicles},
+  Author                   = {Gonzalez Bautista, David and Pérez, Joshué and Milanes, Vicente and Nashashibi, Fawzi},
+  Journal                  = {IEEE Transactions on Intelligent Transportation Systems},
+  Year                     = {2015},
+
+  Month                    = {11},
+  Pages                    = {1-11},
+
+  Doi                      = {10.1109/TITS.2015.2498841}
+}
+
+@article{motion_planning_review_2,
+author = {Katrakazas, Christos and Quddus, Mohammed and Chen, Wen-Hua and Deka, Lipika},
+year = {2015},
+month = {11},
+pages = {416-442},
+title = {Real-time motion planning methods for autonomous on-road driving: State-of-the-art and future research directions},
+volume = {60},
+journal = {Transportation Research Part C: Emerging Technologies},
+doi = {10.1016/j.trc.2015.09.011}
+}
+
+@Article{motion_planning_review_3,
+Title                    = {A Survey of Motion Planning and Control Techniques for Self-driving
+Urban Vehicles},
+Author                   = {Brian Paden and
+Michal C{\'{a}}p and
+Sze Zheng Yong and
+Dmitry S. Yershov and
+Emilio Frazzoli},
+Journal                  = {CoRR},
+Year                     = {2016},
+Volume                   = {abs/1604.07446},
+Archiveprefix            = {arXiv},
+Bibsource                = {dblp computer science bibliography, https://dblp.org},
+Biburl                   = {https://dblp.org/rec/bib/journals/corr/PadenCYYF16},
+Eprint                   = {1604.07446},
+Timestamp                = {Mon, 13 Aug 2018 16:49:15 +0200},
+Url                      = {http://arxiv.org/abs/1604.07446}
+}
+
+
+@inproceedings{motion_planning_rrt,
+    title={Rapidly-Exploring Random Trees: A New Tool for Path Planning},
+    author={Steven M. LaValle},
+    year={1998}
+}
+
+@Article{motion_planning_rrt_mod_for_car,
+  author    = {Ахметзянов И.З., Ионов М.А., Карабцев В.С.},
+  title     = {Модификация алгоритма RRT для определения оптимальной траектории движения автомобиля при объезде препятствий},
+  journal   = {Вестник Сибирской государственной автомобильно-дорожной академии},
+  year      = {2017},
+  timestamp = {2019.03.06},
+}
+
+@INPROCEEDINGS{motion_planning_rrt_star,
+    author={S. M. {LaValle} and J. J. {Kuffner}},
+    booktitle={Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)},
+    title={Randomized kinodynamic planning},
+    year={1999},
+    volume={1},
+    number={},
+    pages={473-479 vol.1},
+    keywords={robot dynamics;path planning;state-space methods;random processes;trees (mathematics);randomized path planning;kinodynamic planning;state-space;nonholonomic planning;configuration space;hovercrafts;artificial satellites;obstacle avoidance;random trees;Path planning;State-space methods;Orbital robotics;Vehicle dynamics;Kinematics;Trajectory;Mobile robots;Computer science;Space exploration;Velocity control},
+    doi={10.1109/ROBOT.1999.770022},
+    ISSN={1050-4729},
+    month={May}
+}
+
+@article{nn_motion_prediction,
+  author    = {Nemanja Djuric and
+               Vladan Radosavljevic and
+               Henggang Cui and
+               Thi Nguyen and
+               Fang{-}Chieh Chou and
+               Tsung{-}Han Lin and
+               Jeff Schneider},
+  title     = {Motion Prediction of Traffic Actors for Autonomous Driving using Deep
+               Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1808.05819},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1808.05819},
+  archivePrefix = {arXiv},
+  eprint    = {1808.05819},
+  timestamp = {Sun, 02 Sep 2018 15:01:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1808-05819},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@Article{overview_private_ovnership,
+  Title                    = {The travel and environmental implications of shared autonomous vehicles, using agent-based model scenarios},
+  Author                   = {Daniel J. Fagnant and Kara M. Kockelman},
+  Journal                  = {Transportation Research Part C: Emerging Technologies},
+  Year                     = {2014},
+  Pages                    = {1 - 13},
+  Volume                   = {40},
+
+  Doi                      = {https://doi.org/10.1016/j.trc.2013.12.001},
+  ISSN                     = {0968-090X}
+}
+
+@Electronic{r,
+  title     = {navigation - ROS Wiki},
+  url       = {http://wiki.ros.org/navigation},
+  owner     = {garrus},
+  timestamp = {2019.05.29},
+}
+
+@article{ransac,
+  added-at = {2013-12-10T15:04:12.000+0100},
+  author = {Fischler, M. and Bolles, R.},
+  biburl = {https://www.bibsonomy.org/bibtex/2cf7f4278e6687a425dbe2374f5b84d07/anas.razeq},
+  interhash = {8a99a961293d8dfe59a1f0838d77a24a},
+  intrahash = {cf7f4278e6687a425dbe2374f5b84d07},
+  journal = { Communications of the ACM},
+  keywords = {RANSAC},
+  number = { 6},
+  pages = { 381-395},
+  timestamp = {2013-12-10T15:04:12.000+0100},
+  title = { Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography},
+  url = {/brokenurl# http://publication.wilsonwong.me/load.php?id=233282275},
+  volume = { 24},
+  year = { 1981}
+}
+
+@Electronic{ros,
+  title     = {ROS.org | Powering the world's robots},
+  url       = {https://www.ros.org/},
+  owner     = {garrus},
+  timestamp = {2019.05.26},
+}
+
+@Electronic{sensor_hdl64_manual,
+  Title                    = {HDL-64E user's manual},
+  Organization             = {Velodyne},
+  Url                      = {https://www.velodynelidar.com/lidar/products/manual/HDL-64E%20Manual.pdf},
+
+  Owner                    = {garrus},
+  Timestamp                = {2019.03.08}
+}
+
+@Article{sensor_radar_overview,
+  Title                    = {Automotive Radars: A review of signal processing techniques},
+  Author                   = {Patole, S.M. and Torlak, M. and Wang, D. and Ali, M.},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2017},
+  Note                     = {cited By 35},
+  Number                   = {2},
+  Pages                    = {22-35},
+  Volume                   = {34},
+
+  Art_number               = {7870764},
+  Document_type            = {Article},
+  Doi                      = {10.1109/MSP.2016.2628914},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85032778479&doi=10.1109%2fMSP.2016.2628914&partnerID=40&md5=49e42c43a5bd6911f206182ffb5ac4ba}
+}
+
+@Conference{sensor_radar_overview_2,
+  Title                    = {Automotive radar the key technology for autonomous driving: From detection and ranging to environmental understanding},
+  Author                   = {Dickmann, J. and Klappstein, J. and Hahn, M. and Appenrodt, N. and Bloecher, H.-L. and Werber, K. and Sailer, A.},
+  Year                     = {2016},
+  Note                     = {cited By 18},
+
+  Art_number               = {7485214},
+  Document_type            = {Conference Paper},
+  Doi                      = {10.1109/RADAR.2016.7485214},
+  Journal                  = {2016 IEEE Radar Conference, RadarConf 2016},
+  Source                   = {Scopus},
+  Url                      = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84978224598&doi=10.1109%2fRADAR.2016.7485214&partnerID=40&md5=f4ceac54185166a514a6173971a58cd3}
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
+
+@Comment{jabref-meta: saveOrderConfig:specified;bibtexkey;false;abstract;false;abstract;false;}
