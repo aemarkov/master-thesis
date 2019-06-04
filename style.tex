@@ -24,6 +24,7 @@
 \usepackage{algorithm}                             % Псевдокод
 \usepackage{algpseudocode}
 \usepackage{chngcntr}                              % Чтоб настроить сквозную нумерацию
+\usepackage{ulem}                                  % Подчеркивания с поддержкой \hfill
 
 % Библиография
 \usepackage[
@@ -49,6 +50,10 @@
 
 \newcommand{\nf}{\normalfont}
 
+% Для tabularx: как X (растянутый), только выравненный по центру
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{P}{>{\raggedleft\arraybackslash}X}
+
 %--------------------------- НАСТРОЙКА ТИТУЛЬНОГО ЛИСТА ------------------------
 \newenvironment{nospasing}
 {
@@ -56,6 +61,38 @@
 }
 {
     \end{spacing}
+}
+
+% Поля титульного листа с подписями и линями (подпись, ФИО итп)
+
+% подпись под пустой линией заданной длины
+\newcommand{\efield}[2][2cm]{
+	%1 - ширина поля
+	%2 - подпись под линией
+	$\underset{\text{(#2)}}{\underline{\hspace*{#1}}}$
+}
+
+% Подпись под текстом
+\newcommand{\tfield}[2]{
+	%1 - содержимое поля
+	%2 - подпись под линией
+	$\underset{\text{(#2)}}{\underline{\smash{\text{#1}}}}$
+}
+
+% Название поля, линия до конца строки, значение поля над линией, подпись под линией
+
+\newcommand{\lfield}[3]{
+	%1 - название поля
+	%2 - содержимое поля
+	%3 - подпись под линией
+	\noindent
+	\renewcommand{\arraystretch}{0.7}
+	\begin{tabularx}{\linewidth}{@{}lY@{}}
+    	#1 & #2 \\
+    	\cline{2-2}
+           & \footnotesize(#3)\normalsize
+	\end{tabularx}
+
 }
 
 
