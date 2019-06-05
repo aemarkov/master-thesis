@@ -225,7 +225,13 @@
 % Рисунки подписываются "Рисунок N - ..." по центру
 % Таблицы подписываются "Таблица N - ..." с левого края
 
-\captionsetup[figure]{name=Рисунок, labelsep=endash, justification=centering}
+\captionsetup[figure]{
+	name=Рисунок,
+	labelsep=endash,
+	justification=centering,
+	belowskip=-17pt,aboveskip=0pt,
+	font={stretch=1.3}
+}
 \captionsetup[table]{name=Таблица, labelsep=endash, justification=raggedright, singlelinecheck=false}
 
 % Сквозная нумерация таблиц, рисунков и формул
@@ -233,6 +239,8 @@
 \counterwithout{table}{chapter}
 \counterwithout{equation}{chapter}
 \pdfimageresolution=150
+
+%\setlength{\belowcaptionskip}{-14pt}
 
 %---------------------------------- ФОРМУЛЫ ------------------------------------
 
