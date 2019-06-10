@@ -23,8 +23,8 @@ $ tlmgr install <package>
 
 Сборка:
 ```bash
-$ latexmk -pdf  -bibtex  -synctex=1 -output-directory=build thesis.tex 
-$ latexmk -pdf  -bibtex  -synctex=1 -output-directory=build 00-autoreferat.tex
+$ latexmk -pdf  -bibtex  -synctex=1 -interaction=nonstopmode -output-directory=build thesis.tex 
+$ latexmk -pdf  -bibtex  -synctex=1 -interaction=nonstopmode -output-directory=build 00-autoreferat.tex
 ```
 
 Можно воспользоваться IDE TexStduio. Профиль с настройками: `cfg/texstudio_profile.txsprofile`.
