@@ -9,9 +9,6 @@
 \usepackage{indentfirst}                           % Красная строка для первых абзацев
 \usepackage{mathtools}
 \usepackage{tabularx}                              % Много табличной боли и магии
-%\usepackage{ltablex}                              % Длинные таблицы с разрывом страниц
-%\keepXColumns                                     % Чтобы ltablex не ломал ширину
-\usepackage{tabulary}                              % Для создания выравненных "где..." для формул
 \usepackage{graphicx}
 \usepackage{titlesec}                              % Для настройки названий глав, разделов итп
 \usepackage{titletoc}                              % Для настройки оглавления
@@ -51,9 +48,9 @@
 
 \newcommand{\nf}{\normalfont}
 
-% Для tabularx: как X (растянутый), только выравненный по центру
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
-\newcolumntype{P}{>{\raggedleft\arraybackslash}X}
+% Для tabularx:
+\newcolumntype{Y}{>{\centering\arraybackslash}X} % Растянутый столбец (как X) с выравниванием по центру
+\newcolumntype{P}{>{\raggedleft\arraybackslash}X}% Растянутый столбец (как X) с выравниванием по справа
 
 %--------------------------- НАСТРОЙКА ТИТУЛЬНОГО ЛИСТА ------------------------
 \newenvironment{nospasing}
