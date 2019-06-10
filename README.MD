@@ -11,15 +11,19 @@
 
 ## Как собрать (один из вариантов)
 TexLive:
-	- базовая схема (plain и latex)
-	- языки: английский, кириллица
+ - базовая схема (plain и latex)
+ - языки: английский, кириллица
 
 Установить пакеты с помощью tlmgr:
 ```bash
 $ tlmgr install <package>
 ```
 
-Список пакетов: biber, latexmk, extsizes, biblatex, biblatex-gost, mathtools, titlesec, caption, enumitem, setspace, soul, csquotes, algorithms, algorithmicx, chngcntr, lastpage, logreq, float
+Список пакетов: 
+```
+biber, latexmk, extsizes, biblatex, biblatex-gost, mathtools, titlesec, caption, enumitem,
+setspace, soul, csquotes, algorithms, algorithmicx, chngcntr, lastpage, logreq, float
+```
 
 Сборка:
 ```bash
