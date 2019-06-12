@@ -22,7 +22,7 @@ $ tlmgr install <package>
 Список пакетов: 
 ```
 biber, latexmk, extsizes, biblatex, biblatex-gost, mathtools, titlesec, caption, enumitem,
-setspace, soul, csquotes, algorithms, algorithmicx, chngcntr, lastpage, logreq, float
+setspace, soul, csquotes, algorithms, algorithmicx, chngcntr, lastpage, logreq, float, cmap
 ```
 
 Сборка:
